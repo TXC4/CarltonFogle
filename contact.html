@@ -21,7 +21,6 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-      <!--JQuery--
     />
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"
@@ -60,23 +59,23 @@
             <a class="nav-link" href="projects.html">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="font-size: 150%" href="#">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Contact</a>
+            <a class="nav-link" style="font-size: 150%" href="#">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <h2 class="h2-centered">About Me</h2>
-
-    <hr />
-
     <div class="contact-me">
-      <h2>Get In Touch</h2>
+      <h2 style="margin-top: 200px">Get In Touch</h2>
       <h3>Looking for a developer?</h3>
-      <a class="btn" href="mailto:carltonfoglejr@gmail.com">CONTACT ME</a>
+      <button
+        class="btn"
+        id="aboutContactButton"
+        onclick="getPhoneNumber('aboutContactButton')"
+        style="margin-bottom: 272px"
+      >
+        CONTACT ME
+      </button>
     </div>
 
     <div class="bottom-section">
@@ -86,8 +85,10 @@
         >LinkedIn</a
       >
       <a class="footer-link" href="https://github.com/TXC4">GitHub</a>
-      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
       <p class="copyright">© 2021 Fogle Software Solutions LLC</p>
     </div>
+
+    <!-- Javascript -->
+    <script src="js/contact.js"></script>
   </body>
 </html>
