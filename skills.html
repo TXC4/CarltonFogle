@@ -1,134 +1,187 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
 
-<head>
-  <!-- Bootstrap -->
-  <link
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
-  rel="stylesheet"
-  integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-  crossorigin="anonymous"
-/>
+    <meta charset="utf-8" />
+    <title>Carlton Fogle</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/icon.png" />
 
-  <meta charset="utf-8">
-  <title>Carlton Fogle</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
-  <link rel="icon" href="images/icon.png">
+    <!-- CSS Animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
 
-  <!-- CSS Animate -->
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-/>
-</head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Justify content end moves navbar items to right -->
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: 150%" href="#">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-<body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <!-- Justify content end moves navbar items to right -->
-    <div
-      class="collapse navbar-collapse justify-content-end"
-      id="navbarSupportedContent"
-    >
-    <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="projects.html">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    <h2 class="h2-centered">My Skills</h2>
 
-  <h2 class="h2-centered">My Skills</h2>
-
-  <!-- Body -->
-  <div class="middle-section">
-    <div>
-
-      <div class="skill-row">
-        <img class="code-img" src="images/skills/c++.png" alt="code-img">
+    <!-- Body -->
+    <div class="middle-section">
+      <div>
+        <div class="skill-row">
+          <img class="code-img" src="images/skills/c++.png" alt="code-img" />
 
           <h3>C/C++</h3>
-          <p>At the age of 15 I started learning C++ so I could develop video games using Unreal Engine.  Later on I often used C++ to program Arduinos. I then learned C so I could modify memory within games.  C++ has been my favorite language ever since.  I am currently using C++ to write OpenGL graphics programs as well as a compiler for school. Some of my projects include:</p>
-      </div>
+          <p>
+            At the age of 15 I started learning C++ so I could develop video
+            games using Unreal Engine. Later on I often used C++ to program
+            Arduinos. I then learned C so I could modify memory within games.
+            C++ has been my favorite language ever since. In my senior year of
+            college I used C++ to write OpenGL programs and also built a
+            compiler to translate a subset of Java into x86 assembly.
+          </p>
+        </div>
 
-      <div class="skill-row">
-        <img class="chilli-img" src="images/skills/python.png" alt="chillies-img">
+        <div class="skill-row">
+          <img
+            class="chilli-img"
+            src="images/skills/python.png"
+            alt="chillies-img"
+          />
 
-        <h3>Python</h3>
-        <p>I developed an interest in machine learning so I learned Python.  After realizing how much more I could accomplish in less time with Python, I began using Python for all sorts of programs.  I learned to make use of the Kivy cross-platform framework and machine learning libraries such as Scikit-Learn as well as NumPy and MatPlotLib.  Some of my projects include:</p>
-      </div>
+          <h3>Python</h3>
+          <p>
+            I developed an interest in machine learning so I learned Python.
+            After realizing how much more I could accomplish in less time with
+            Python, I began using Python for all sorts of programs. I learned to
+            make use of the Kivy cross-platform framework and machine learning
+            libraries such as Scikit-Learn as well as NumPy and MatPlotLib.
+          </p>
+        </div>
 
-      <div class="skill-row">
-        <img class="code-img" src="images/skills/swift.png" alt="code-img">
+        <div class="skill-row">
+          <img class="code-img" src="images/skills/swift.png" alt="code-img" />
 
           <h3>Swift</h3>
-          <p>In college I decided to buy a Mac for the first time and learn to write an iOS application natively.  This led to, by far, my largest project to date, which I plan to launch on the app store in March of 2021.</p>
+          <p>
+            In college I decided to buy a Mac for the first time and learn to
+            write an iOS application natively. I've developed an app for home
+            inspectors that I plan to release later this year after adding a few
+            more features.
+          </p>
+        </div>
+
+        <div class="skill-row">
+          <img
+            class="chilli-img"
+            src="images/skills/mobile.png"
+            alt="chillies-img"
+          />
+
+          <h3>Mobile Development</h3>
+          <p>
+            Aside from native iOS and the cross-platform Kivy framework, I have
+            written some smaller apps in Java during a Human-Computer
+            Interaction college course.
+          </p>
+        </div>
+
+        <div class="skill-row">
+          <img
+            class="code-img"
+            src="images/skills/web.png"
+            alt="chillies-img"
+          />
+
+          <h3>Web Development</h3>
+          <p>
+            In order to market my app as well as myself, I needed to learn some
+            web development. So I set out to learn HTML, CSS, Javascript,
+            Bootstrap, Node.JS, Express.JS and React.JS. This website makes use
+            of React on the "Projects" page. My property management metrics site
+            that I built for a client makes use of Node, Express, and EJS. It
+            reads and manipulates data from the PropertyWare API. Both make use
+            of Bootstrap and are deployed on Heroku.
+          </p>
+        </div>
+
+        <div class="skill-row">
+          <img
+            class="chilli-img"
+            src="images/skills/house.png"
+            alt="chillies-img"
+          />
+
+          <h3>Additional Skills</h3>
+          <p>
+            I've been a licensed real estate agent in Texas since 2014 and plan
+            on obtaining my broker's license this summer. In 2020 I passed the
+            FAA Private Pilot's written exam and I am currently working to log
+            enough flight time for my certification. On a good day I can break
+            80 in a round of golf. I can also exceed 100 on a bad day..
+          </p>
+        </div>
       </div>
 
-      <div class="skill-row">
-        <img class="chilli-img" src="images/skills/mobile.png" alt="chillies-img">
-  
-        <h3>Mobile Development</h3>
-        <p>Aside from native iOS and the cross-platform Kivy framework, I am writing Android applications with Java in a Human-Computer Interactions course.</p>
-      </div>
+      <hr />
 
-      <div class="skill-row">
-        <img class="code-img" src="images/skills/web.png" alt="chillies-img">
-  
-        <h3>Web Development</h3>
-        <p>In order to market my app as well as myself, I need to learn some web development.  So I set out to learn HTML, CSS, Javascript, Bootstrap, Node.JS, Express.JS and React.JS.  I still have lots of room for improvement in this area but as you can see I have made it this far..</p>
-      </div>
-
-      <div class="skill-row">
-        <img class="chilli-img" src="images/skills/house.png" alt="chillies-img">
-  
-        <h3>Additional Skills</h3>
-        <p>I've been a licensed real estate agent in Texas since 2014 and plan on obtaining my broker's license this summer. In 2020 I passed the FAA Private Pilot's written exam and I am currently working to log enough flight time for my certification.  On a good day I can break 80 in a round of golf.  I can also exceed 100 on a bad day..</p>
-      </div>
-
-    </div>
-
-    <hr>
-
-    <div class="contact-me">
+      <div class="contact-me">
         <h2>Get In Touch</h2>
         <h3>Looking for a developer?</h3>
         <a class="btn" href="mailto:carltonfoglejr@gmail.com">CONTACT ME</a>
       </div>
-    
+
       <div class="bottom-section">
-      <a class="footer-link" href="https://www.linkedin.com/in/carlton-fogle-276603128/">LinkedIn</a>
-      <a class="footer-link" href="https://github.com/TXC4">GitHub</a>
-      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-      <p class="copyright">© 2021 Fogle Software Solutions LLC</p>
+        <a
+          class="footer-link"
+          href="https://www.linkedin.com/in/carlton-fogle-276603128/"
+          >LinkedIn</a
+        >
+        <a class="footer-link" href="https://github.com/TXC4">GitHub</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p class="copyright">© 2021 Fogle Software Solutions LLC</p>
       </div>
-
-  </div>
-</body>
+    </div>
+  </body>
 </html>
-
-
