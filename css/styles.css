@@ -1,43 +1,43 @@
 body {
-  color: #40514E;
-  font-family: 'Merriweather', serif;
+  color: #40514e;
+  font-family: "Merriweather", serif;
   margin: 0;
 }
 
 h1 {
-  color: #66BFBF;
-  font-family: 'Sacramento', sans-serif;
+  color: #66bfbf;
+  font-family: "Sacramento", sans-serif;
   font-size: 5.625rem;
   margin-bottom: 0;
   padding-top: 50px;
 }
 
 h2 {
-  color: #66BFBF;
-  font-family: 'Montserrat', sans-serif;
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
 }
 
 h3 {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
 
 a:hover {
-  color: #EAF6F6;
+  color: #eaf6f6;
 }
 
 hr {
-  border: dotted #66BFBF 6px;
-  color: #FFF;
+  border: dotted #66bfbf 6px;
+  color: #fff;
   border-bottom: none;
   margin: 100px 48%;
   width: 4%;
@@ -50,26 +50,26 @@ p {
 /* Navbar */
 
 .navbar-brand {
-	margin-left: 2%;
-	font-weight: 500;
+  margin-left: 2%;
+  font-weight: 500;
 }
 
 .navbar {
-	padding-bottom: 0 0 4.5rem;
+  padding-bottom: 0 0 4.5rem;
 }
 
 .navbar-nav {
-	padding-right: 2%;
+  padding-right: 2%;
 }
 
 .navbar-toggler {
-	margin-right: 2%;
+  margin-right: 2%;
 }
 
 .nav-item {
-	padding: 0 0px;
-	font-size: large;
-	font-weight: 600;
+  padding: 0 0px;
+  font-size: large;
+  font-weight: 600;
 }
 
 .nav-item:hover {
@@ -78,7 +78,7 @@ p {
 }
 
 .top-section {
-  background-color: #EAF6F6;
+  background-color: #eaf6f6;
   display: block;
   padding-top: 100px;
   position: relative;
@@ -109,7 +109,7 @@ p {
 }
 
 .bottom-section {
-  background-color: #66BFBF;
+  background-color: #66bfbf;
   margin: auto;
   padding: 50px 0 20px;
   text-align: center;
@@ -117,7 +117,7 @@ p {
 
 .intro {
   margin: auto;
-  width: 30%;
+  width: 50%;
 }
 
 .skill-row {
@@ -142,7 +142,7 @@ p {
 }
 
 .copyright {
-  color: #EAF6F6;
+  color: #eaf6f6;
   font-size: 0.75rem;
   padding: 20px 0 20px;
 }
@@ -175,7 +175,7 @@ p {
   background: #11cdd4;
   border-radius: 8px;
   color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
