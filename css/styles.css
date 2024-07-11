@@ -195,3 +195,9 @@ p {
   text-align: center;
   margin-bottom: 50px;
 }
+
+.form-group {
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
